@@ -1,1 +1,6 @@
-# MSCS532_Assignment6
+How to Run the Code: 1.Open a terminal or command prompt. 2.Navigate to the directory where you saved your file. 3.Run the script using the following command: Command: python elementaryDataStructures.py
+                            python sectionAlgorithms.py
+
+You will see the output printed directly to your terminal, showing the performance comparison for each data type and size. It might take a few moments to complete, especially for the larger, sorted arrays running on the deterministic algorithm.
+
+Summary of Findings: A key finding is the fundamental trade-off between arrays and linked lists. Arrays offer fast O(1) random access but suffer from slow O(n) insertions and deletions in the middle. In contrast, linked lists provide efficient O(1) additions and removals at their ends but require slow O(n) traversal for access. This directly impacts other structures; stacks are efficient with arrays, while queues are best built with linked lists to avoid slow dequeues. Ultimately, the best data structure depends on the specific application's need for access speed versus dynamic modification.
